@@ -1,0 +1,26 @@
+/* 3 */
+.button {
+padding: 10px 18px;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+font-weight: 600;
+transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+
+.default {
+background-color: #6c757d;
+color: #fff;
+}
+
+
+.primary {
+background-color: #28a745;
+color: #fff;
+}
+
+
+.button:active {
+transform: translateY(1px);
+}

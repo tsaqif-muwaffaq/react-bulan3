@@ -1,0 +1,40 @@
+/* 5 */
+.resp-box {
+padding: 20px;
+border-radius: 10px;
+background-color: #007bff;
+color: #fff;
+max-width: 760px;
+margin: 18px auto;
+text-align: center;
+}
+
+
+.resp-title {
+margin: 0 0 8px 0;
+font-size: 20px;
+}
+
+
+.resp-text {
+margin: 0;
+font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+.resp-box {
+background-color: #e67e22; /* untuk mobile ubah warna */
+padding: 14px;
+}
+
+
+.resp-title {
+font-size: 18px;
+}
+
+
+.resp-text {
+font-size: 14px;
+}
+}

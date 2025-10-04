@@ -1,0 +1,40 @@
+/* 2 */
+.about-container {
+max-width: 480px;
+margin: 24px auto;
+padding: 18px;
+border-radius: 10px;
+background-color: #fff;
+box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+border: 1px solid #eee;
+}
+
+
+.about-title {
+margin: 0 0 10px 0;
+font-size: 20px;
+color: #222;
+}
+
+
+.about-text {
+color: #555;
+line-height: 1.6;
+margin-bottom: 12px;
+}
+
+
+.about-cta {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 16px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 14px;
+}
+
+
+.about-cta:hover {
+opacity: 0.92;
+}
