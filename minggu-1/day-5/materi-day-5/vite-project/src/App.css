@@ -1,0 +1,89 @@
+/*  Tampilan utama */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4ff, #e2e8ff);
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* 📌 Judul */
+.title {
+  color: #2a2d7c;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* 📦 Box counter */
+.counter-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔢 Nilai counter */
+.counter-value {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  color: #2a2d7c;
+  min-width: 60px;
+  text-align: center;
+}
+
+/* 🔘 Tombol umum */
+.btn {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* 🔻 Tombol Kurang */
+.btn.decrement {
+  background: #ff4d4d;
+}
+
+.btn.decrement:hover {
+  background: #e63946;
+  transform: scale(1.05);
+}
+
+/* 🔺 Tombol Tambah */
+.btn.increment {
+  background: #4a90e2;
+}
+
+.btn.increment:hover {
+  background: #357abd;
+  transform: scale(1.05);
+}
+
+/* 📝 Input */
+.counter-input {
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 18px;
+  width: 120px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #4a90e2;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.counter-input:focus {
+  border-color: #2a2d7c;
+}
