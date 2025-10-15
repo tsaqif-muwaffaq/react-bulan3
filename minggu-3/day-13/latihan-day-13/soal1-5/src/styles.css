@@ -1,0 +1,25 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #626262;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #0d6efd;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
