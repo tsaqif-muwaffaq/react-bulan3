@@ -1,0 +1,165 @@
+/* 🌈 STYLE GLOBAL */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #222;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.25rem;
+}
+
+/* 🌟 WRAPPER UTAMA */
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* 🧠 BUTTONS */
+button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0.3rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* 💡 SWITCH LIGHT */
+.light-container {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.light-on {
+  background-color: #fffae6;
+  border: 2px solid #ffe58f;
+  color: #b8860b;
+}
+
+.light-off {
+  background-color: #d9d9d9;
+  border: 2px solid #999;
+  color: #555;
+}
+
+/* 📄 FETCH DATA (PostViewer) */
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.post-item {
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.post-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* 🔢 COUNTER */
+.counter-box {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eef4ff;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.counter-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 📝 FORM */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background-color: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.form-box input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-output {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-family: monospace;
+}
+
+/* 🌙 THEME PREFERENCE */
+.theme-wrapper {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.theme-dark {
+  background: #222;
+  color: #f1f1f1;
+}
+
+.theme-light {
+  background: #fff;
+  color: #222;
+}
+
+/* 🔘 FOOTER / SEPARATOR */
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 2rem 0;
+}
