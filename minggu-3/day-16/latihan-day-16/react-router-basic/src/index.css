@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f6f8;
+  color: #333;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0; /* Ini akan ditimpa oleh Navbar.css, tapi tidak apa-apa */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ini adalah gaya global, kita akan mengandalkan NavLink di Navbar.css untuk gaya aktif */
+a.active {
+  /* Dihapus agar tidak bentrok dengan gaya NavLink */
+}
+
+/* Kontainer utama untuk semua konten halaman */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Gaya default untuk halaman statis (Home, About, Contact) */
+.page-container {
+  background-color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsif untuk padding di mobile */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 16px;
+  }
+}

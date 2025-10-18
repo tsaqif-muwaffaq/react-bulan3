@@ -1,0 +1,38 @@
+.category-filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.filter-button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.filter-button:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+  transform: translateY(-2px);
+}
+
+.filter-button.active {
+  background-color: #0077ff;
+  color: white;
+  border-color: #0077ff;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 119, 255, 0.2);
+}
+
+.filter-button.active:hover {
+  transform: translateY(0);
+}
